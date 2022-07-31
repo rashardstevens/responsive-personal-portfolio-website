@@ -235,6 +235,7 @@ header {
 
 .header__image {
   width: 82%;
+  height: 550px;
   position: absolute;
   bottom: -1rem;
   z-index: 1;
