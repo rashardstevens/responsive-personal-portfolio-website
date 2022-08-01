@@ -38,28 +38,4 @@ const fetchTestimonials = () => {
   let testimonialsContainer = document.querySelector(
     ".testimonials__container"
   );
-  testimonialsContainer.innerHTML = "";
-
-  // loop through array and print testimonials
-  testimonials.forEach((testimonial) => {
-    const newTestmonial = document.createElement("article");
-    newTestmonial.className = "testimonial";
-    newTestmonial.innerHTML = `
-        <p>
-        "${testimonial.quote}"
-        </p>
-        <div class="testimonial__client">
-            <span class="avatar">
-                <img src="./images/${testimonial.avatar}.jpg">
-            </span>
-            <div class="testimonial__work">
-                <p><b>${testimonial.name}</b></p>
-                <small>${testimonial.title}</small>
-            </div>
-        </div>`;
-
-    testimonialsContainer.append(newTestmonial);
-  });
 };
-
-window.addEventListener("load", fetchTestimonials);
