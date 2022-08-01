@@ -241,26 +241,6 @@ header {
   z-index: 1;
 }
 
-/* ================= COMPANIES ============== */
-section#companies {
-  position: relative;
-  top: 5rem;
-  padding: 0;
-  background: var(--color-light);
-  margin: 0;
-}
-
-.companies__container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 2rem;
-  align-items: center;
-}
-
-.companies__container span {
-  padding: 2.4rem;
-}
-
 /* ================= SERVICES ============== */
 section#services {
   margin-top: 8rem;
