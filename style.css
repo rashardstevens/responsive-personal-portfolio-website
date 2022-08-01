@@ -400,47 +400,13 @@ section#services {
   transform: translateY(calc(-100% + 18rem));
 }
 
-/* ================= TESTIMONIALS ============== */
-#testimonials h2 {
+/* ================= ABOUT ME ============== */
+#about h2 {
   text-align: center;
 }
 
-.testimonials__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-}
-
-.testimonial {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-  background: var(--color-light);
-  padding: 3rem;
-  font-size: 0.88rem;
-  border: 1px solid transparent;
-  transition: all 400ms ease;
-}
-
-.testimonial:hover {
-  background: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-  box-shadow: 0 3rem 2rem var(--color-primary-variant);
-  z-index: 1;
-}
-
-.avatar {
-  width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 50%;
-  overflow: hidden;
-  display: block;
-}
-
-.testimonial__client {
-  display: flex;
-  gap: 1rem;
+.lead {
+  font-size: 1.1rem;
 }
 
 /* ================= CONTACT ============== */
